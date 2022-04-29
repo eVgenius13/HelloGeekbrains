@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="multiply"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="@color/boy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/girl"
+        android:hint="@string/passport"
+        android:inputType="textPassword"
+        android:minHeight="60dp"
+        android:textColorHint="@color/purple" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/button"
+        android:textColor="@color/green"
+        android:textSize="40sp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brown"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:minHeight="48dp"
+        android:text="@string/switch1"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/checkbox"
+        android:textColor="@color/blue"
+        android:textSize="36sp"
+        android:textStyle="italic"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/grey"
+        android:minHeight="60dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textOff="ВЫКЛ"
+        android:textOn="ВКЛ"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+</LinearLayout>

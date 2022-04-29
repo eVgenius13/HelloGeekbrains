@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">HelloGeekBrains</string>
+    <string name="textview">Привет!</string>
+    <string name="button">Жмакай!</string>
+    <string name="checkbox">Тыкай!</string>
+    <string name="switch1">Двигай!</string>
+    <string name="passport">Введи ответ</string>
+    <string name="name">ФИО</string>
+    <string name="contact">КОНТАКТЫ</string>
+    <string name="phone">+7</string>
+    <string name="textPostalAddress">Адрес</string>
+    <string name="textEmailAddress">E-mail</string>
+    <string name="number">ИНН</string>
+</resources>
